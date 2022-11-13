@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaSignaturit.API", "PruebaSignaturit.API\PruebaSignaturit.API.csproj", "{890AC1B8-26FB-4BBE-AB41-744BA154C422}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BC761F40-6D2E-44B5-B634-9AE0008240CC} = {BC761F40-6D2E-44B5-B634-9AE0008240CC}
+		{BFF5985F-353E-488C-8852-06A5124FC3B1} = {BFF5985F-353E-488C-8852-06A5124FC3B1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaSignaturit.Domain", "PruebaSignaturit.Domain\PruebaSignaturit.Domain.csproj", "{204BC6CB-CCAD-4F77-A6E0-D8F7661AB12D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaSignaturit.Application", "PruebaSignaturit.Application\PruebaSignaturit.Application.csproj", "{BFF5985F-353E-488C-8852-06A5124FC3B1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{204BC6CB-CCAD-4F77-A6E0-D8F7661AB12D} = {204BC6CB-CCAD-4F77-A6E0-D8F7661AB12D}
+		{BC761F40-6D2E-44B5-B634-9AE0008240CC} = {BC761F40-6D2E-44B5-B634-9AE0008240CC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaSignaturit.Infrastructure", "PruebaSignaturit.Infrastructure\PruebaSignaturit.Infrastructure.csproj", "{BC761F40-6D2E-44B5-B634-9AE0008240CC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{204BC6CB-CCAD-4F77-A6E0-D8F7661AB12D} = {204BC6CB-CCAD-4F77-A6E0-D8F7661AB12D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{890AC1B8-26FB-4BBE-AB41-744BA154C422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890AC1B8-26FB-4BBE-AB41-744BA154C422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890AC1B8-26FB-4BBE-AB41-744BA154C422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890AC1B8-26FB-4BBE-AB41-744BA154C422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{204BC6CB-CCAD-4F77-A6E0-D8F7661AB12D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204BC6CB-CCAD-4F77-A6E0-D8F7661AB12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204BC6CB-CCAD-4F77-A6E0-D8F7661AB12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204BC6CB-CCAD-4F77-A6E0-D8F7661AB12D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFF5985F-353E-488C-8852-06A5124FC3B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF5985F-353E-488C-8852-06A5124FC3B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF5985F-353E-488C-8852-06A5124FC3B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF5985F-353E-488C-8852-06A5124FC3B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC761F40-6D2E-44B5-B634-9AE0008240CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC761F40-6D2E-44B5-B634-9AE0008240CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC761F40-6D2E-44B5-B634-9AE0008240CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC761F40-6D2E-44B5-B634-9AE0008240CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A623C3BE-9776-41DE-B8E5-0BCE577824CD}
+	EndGlobalSection
+EndGlobal
